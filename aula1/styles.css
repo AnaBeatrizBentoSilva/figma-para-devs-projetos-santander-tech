@@ -1,0 +1,80 @@
+body {
+    background-color: #0F1216;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.containers {
+    align-items: center;
+    background: #0F1216;
+    display: flex;
+    flex-direction: column;
+    gap: 54px;
+    padding-top: 100px;
+}
+
+.banner-container {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 24px;
+    justify-content: flex-start;
+}
+
+.title-container {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.img-banner-container {
+    border-radius: 16px;
+    height: 303px;
+    width: 50%;
+}
+
+.title-banner {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.title-banner {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.subtitle-banner {
+    font-size: 20px;
+    font-weight: 480;
+}
+
+.button-container {
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    display: inline-flex;
+}
+
+.site-button {
+    padding: 16px 32px;
+    border-radius: 24px;
+    border: 1px #8F1216 solid;
+    color: #0F1216;
+    font-size: 16px;
+    background-color: #A6F750;
+    cursor: pointer;
+}
+
+.contact-button {
+    padding: 16px 32px;
+    border-radius: 24px;
+    border: 1px #A6F750 solid;
+    color: #A6F750;
+    font-size: 16px;
+    background-color: #0F1216;
+    cursor: pointer;
+}

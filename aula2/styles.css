@@ -1,0 +1,130 @@
+body {
+    background-color: #0F1216;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.containers {
+    align-items: center;
+    background: #0F1216;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding-top: 100px;
+}
+
+.banner-container {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 24px;
+    justify-content: flex-start;
+}
+
+.cards-container {
+    align-items: center;
+    display: flex;
+    gap: 16px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.title-container {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.img-banner-container {
+    border-radius: 16px;
+    height: 303px;
+    width: 50%;
+}
+
+.title-banner {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.title-banner {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.subtitle-banner {
+    font-size: 20px;
+    font-weight: 480;
+}
+
+.button-container {
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    display: inline-flex;
+}
+
+.site-button {
+    padding: 16px 32px;
+    border-radius: 24px;
+    border: 1px #8F1216 solid;
+    color: #0F1216;
+    font-size: 16px;
+    background-color: #A6F750;
+    cursor: pointer;
+}
+
+.contact-button {
+    padding: 16px 32px;
+    border-radius: 24px;
+    border: 1px #A6F750 solid;
+    color: #A6F750;
+    font-size: 16px;
+    background-color: #0F1216;
+    cursor: pointer;
+}
+
+.card-container {
+    width: 20%;
+    padding: 16px;
+    background: #282C33;
+    border-radius: 16px;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+    display: inline-flex;
+}
+
+.card-image-container {
+    width: 100%;
+}
+
+.card-image {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card-title{
+    align-self: stretch;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card-button{
+    padding: 16px 32px;
+    border-radius: 24px;
+    border: 1px solid #0F1216;
+    color: #0F1216;
+    font-size: 16px;
+    background-color: #A6F750;
+    cursor: pointer;
+    width: 100%;
+}
